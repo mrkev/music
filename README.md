@@ -1,15 +1,13 @@
 # Music
 
-A fork of the excelent `npm i -g music`, using a modified version of dronir's SpotifyControl script for 10x more awesomeness.
-
-# All kudos do dronir and Steve Kaliski
+Aren't you tired of constantly switching between your text editor, terminal, browser, and Spotify? Well, now you can search through Spotify in your terminal while you code! Here's how:
 
 ## Installation
 
 Get [Spotify](https://www.spotify.com/).
 
 ```
-$ [sudo] npm install -g https://github.com/mrkev/music
+$ [sudo] npm install -g music
 ```
 
 ## Usage
@@ -51,5 +49,4 @@ Jumps to the 60 second mark, then forward 30 seconds, then backwards 10 seconds.
 $ music -j 60 -f 30 -b 10 -r -s -v 100
 ```
 
-
-
+This package uses [dronir's awesome SpotifyControl script](https://github.com/dronir/SpotifyControl). 👏👏
